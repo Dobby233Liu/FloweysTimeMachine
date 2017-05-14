@@ -968,9 +968,9 @@ function start() {
         localStorage.setItem("userPresets",JSON.stringify(presets));
     }
     document.getElementById("userpresetnew").addEventListener("click", function() {
-        var name = window.prompt("Enter the name for your new preset");
+        var name = window.prompt("填写新配置的名称");
         if (name === null || name === "") {
-            window.alert("You did not enter a valid name, preset not created.");
+            window.alert("你没有输入名称，无法创建.");
         } else {
             saveUserPreset(name);
             var presetSelect = document.getElementById("userpresetselect");
@@ -1004,7 +1004,7 @@ function start() {
             updateSaveDataForm(saveLines);
             updatePersistentDataForm(ini);
         } else {
-            window.alert("You need to select a valid preset first!");
+            window.alert("你需要选择配设!");
         }
     }, false);
     document.getElementById("userpresetdelete").addEventListener("click", function() {
