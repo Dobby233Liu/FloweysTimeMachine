@@ -1,83 +1,83 @@
 var items = [
-    "Empty",
-    "Monster Candy",
-    "Croquet Roll",
-    "Stick",
-    "Bandage",
-    "Rock Candy",
-    "Pumpkin Rings",
-    "Spider Donut",
-    "Stoic Onion",
-    "Ghost Fruit",
-    "Spider Cider",
-    "Butterscotch Pie",
-    "Faded Ribbon",
-    "Toy Knife",
-    "Tough Glove",
-    "Manly Bandana",
-    "Snowman Piece",
-    "Nice Cream",
-    "Puppydough Icecream",
-    "Bisicle",
-    "Unisicle",
-    "Cinnamon Bun",
-    "Temmie Flakes",
-    "Abandoned Quiche",
-    "Old Tutu",
-    "Ballet Shoes",
-    "Punch Card",
-    "Annoying Dog",
-    "Dog Salad",
-    "Dog Residue (1)",
-    "Dog Residue (2)",
-    "Dog Residue (3)",
-    "Dog Residue (4)",
-    "Dog Residue (5)",
-    "Dog Residue (6)",
-    "Astronaut Food",
-    "Instant Noodles",
-    "Crab Apple",
-    "Hot Dog...?",
-    "Hot Cat",
-    "Glamburger",
-    "Sea Tea",
-    "Starfait",
-    "Legendary Hero",
-    "Cloudy Glasses",
-    "Torn Notebook",
-    "Stained Apron",
-    "Burnt Pan",
-    "Cowboy hat",
-    "Empty Gun",
-    "Heart Locket",
-    "Worn Dagger",
-    "Real Knife",
-    "The Locket",
-    "Bad Memory",
-    "Dream",
-    "Undyne's Letter",
-    "Undyne Letter EX",
-    "Potato Chisps",
-    "Junk Food",
-    "Mystery Key",
-    "Face Steak",
-    "Hush Puppy",
-    "Snail Pie",
-    "temy armor",
+    "空白",
+    "怪物糖果",
+    "槌球",
+    "木棍",
+    "绷带",
+    "摇滚糖",
+    "南瓜戒指",
+    "蜘蛛甜甜圈",
+    "大洋葱",
+    "鬼水果",
+    "蜘蛛苹果酒",
+    "奶油糖派",
+    "褪色丝带",
+    "玩具刀",
+    "牢固手套",
+    "男人味头巾",
+    "雪人的雪块",
+    "好棒冰",
+    "狗狗冰淇淋",
+    "双条",
+    "单条",
+    "肉桂面包",
+    "tEm脆片",
+    "被遗弃的蛋派",
+    "老图图",
+    "芭蕾舞鞋",
+    "击分卡",
+    "傻狗",
+    "狗狗沙拉",
+    "狗剩 (1)",
+    "狗剩 (2)",
+    "狗剩 (3)",
+    "狗剩 (4)",
+    "狗剩 (5)",
+    "狗剩 (6)",
+    "太空食物",
+    "方便面",
+    "红苹果",
+    "热狗...?",
+    "热猫",
+    "胡椒面包",
+    "海茶",
+    "星型食物",
+    "传说英雄",
+    "刮花的眼镜",
+    "损坏的笔记本",
+    "染色围裙",
+    "烧锅",
+    "牛仔帽",
+    "没子弹的枪",
+    "心型项链",
+    "磨损匕首",
+    "真刀",
+    "项链",
+    "糟糕的记忆",
+    "梦想",
+    "Undyne的情书",
+    "Undyne的情书EX",
+    "薯片",
+    "垃圾食品",
+    "神秘钥匙",
+    "脸型牛排",
+    "狗不理",
+    "蜗牛派",
+    "Tem亏假",
     "<invalid>"
 ];
 
 var cellOpts = {
-    "0": "Empty",
-    "201": "Say Hello",
-    "202": "Puzzle Help",
-    "203": "About Yourself",
-    "204": "Call Her \"Mom\"",
-    "205": "Flirt",
-    "206": "Toriel's Phone",
-    "210": "Papyrus's Phone",
-    "220": "Dimensional Box A",
-    "221": "Dimensional Box B"
+    "0": "空",
+    "201": "说你好",
+    "202": "谜题帮助",
+    "203": "关于你",
+    "204": "叫她 \"妈妈\"",
+    "205": "调情",
+    "206": "Toriel的电话",
+    "210": "Papyrus的电话",
+    "220": "次元箱A",
+    "221": "次元箱B"
 };
 
 var weaponAts = {
@@ -351,103 +351,103 @@ var rooms = {
 };
 
 var floweyStates = {
-    "0": "None (Initial state)",
-    "1": "Light blue (Initiated fight)",
-    "2": "Orange",
-    "3": "Blue",
-    "4": "Purple",
-    "5": "Green",
-    "6": "Yellow",
-    "7": "None (Finished fight)",
+    "0": "原状态",
+    "1": "亮蓝色",
+    "2": "橙色",
+    "3": "蓝色",
+    "4": "紫色",
+    "5": "绿色",
+    "6": "黄色",
+    "7": "完成战斗",
 };
 
 var torielStates = {
-    "0": "Initial state",
-    "3": "Unknown",
-    "4": "Killed",
-    "5": "Spared"
+    "0": "原状态",
+    "3": "未知",
+    "4": "已经被杀",
+    "5": "已经被饶恕"
 };
 
 var comedianStates = {
-    "0": "Initial state",
-    "1": "Unknown",
-    "2": "Killed"
+    "0": "原状态",
+    "1": "未知",
+    "2": "被杀"
 };
 
 var doggoStates = {
-    "0": "Initial state",
-    "1": "Killed",
-    "2": "Played fetch (Spared)"
+    "0": "原状态",
+    "1": "被杀",
+    "2": "被饶恕"
 };
 
 var dogamyDogaressaStates = {
-    "0": "Initial state",
-    "1": "Killed",
-    "2": "Played fetch (Spared)"
+    "0": "原状态",
+    "1": "被杀",
+    "2": "被饶恕"
 };
 
 var greaterDogStates = {
-    "0": "Initial state",
-    "1": "Killed",
-    "2": "Played fetch (Spared)",
-    "3": "Ignored"
+    "0": "原状态",
+    "1": "被杀",
+    "2": "被饶恕",
+    "3": "被拒绝"
 };
 
 var papyrusStates = {
-    "0": "Initial state",
-    "1": "Killed"
+    "0": "原状态",
+    "1": "被杀"
 };
 
 var plotValues = {
-    "2": "Didn't fight Papyrus",
-    "101": "Fought Papyrus",
-    "119": "Unknown",
-    "164": "Hotlands genocide",
-    "199": "Unknown",
-    "999": "Pacifist epilogue"
+    "2": "不打Papyrus",
+    "101": "打Papyrus",
+    "119": "未知",
+    "164": "热带种族灭绝",
+    "199": "未知",
+    "999": "达成和平结局"
 };
 
 var trainingDummyStates = {
-    "0": "Initial state",
-    "1": "Killed",
-    "2": "Talked to",
-    "3": "Tired of your shenanigans"
+    "0": "原状态",
+    "1": "杀死了",
+    "2": "交谈过了",
+    "3": "厌倦了你的行为"
 };
 
 var shyrenStates = {
-    "0": "Initial state",
-    "1": "Killed",
-    "2": "Unknown"
+    "0": "原状态",
+    "1": "被杀",
+    "2": "未知"
 };
 
 var madDummyStates = {
-    "0": "Initial state",
-    "1": "Killed"
+    "0": "原状态",
+    "1": "被杀"
 };
 
 var undyneStates1 = {
-    "0": "Initial state",
-    "1": "Killed"
+    "0": "原状态",
+    "1": "被杀"
 };
 
 var undyneStates2 = {
-    "0": "Initial state",
-    "1": "Killed"
+    "0": "原状态",
+    "1": "被杀"
 };
 
 var broGuardsStates = {
-    "0": "Initial state",
-    "1": "Killed"
+    "0": "原状态",
+    "1": "被杀"
 };
 
 var mettatonStates = {
-    "0": "Initial state",
-    "1": "Killed"
+    "0": "原状态",
+    "1": "被杀"
 };
 
 var muffetStates = {
-    "0": "Initial state",
-    "1": "Killed"
+    "0": "原状态",
+    "1": "被杀"
 };
 
 function parseIniFromText(text) {
@@ -497,8 +497,7 @@ function flowey_laugh_once() {
     if (localStorage.getItem("laughed") !== "true") {
         document.getElementById("floweyimg").src = "res/flowey_evil.png";
         if(!document.getElementById("mute").checked) {
-            var audio = new Audio("res/flowey_laugh.mp3");
-            audio.play();
+            
         }
         localStorage.setItem("laughed", "true");
     }
