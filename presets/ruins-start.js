@@ -1,4 +1,4 @@
-presets["Ruins Start"] = {
+presets["遗迹"] = {
     ini: {
         "General": {
             "fun": "45",
