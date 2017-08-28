@@ -18,7 +18,7 @@ fun="45.000000"
 ## Meeting Flowey
 When you first meet Flowey, the following entry gets added:
 ```
-[Flowey]]
+[Flowey]
 Met1="1.000000"
 ```
 ## First save
