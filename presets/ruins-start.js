@@ -1,4 +1,4 @@
-presets["ruins-start"] = {
+presets["Ruins Start"] = {
     ini: {
         "General": {
             "fun": "45",
