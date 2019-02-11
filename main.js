@@ -876,7 +876,7 @@ function start() {
     insert_inv_lists();
     insert_cell_lists();
     loadPresetSelect();
-    loadPreset("Ruins Start");
+    loadPreset("Ruins");
     var iniFile, saveFile;
     var iniInput = document.getElementById("ini-file");
     iniInput.addEventListener("change", function(evt) {
