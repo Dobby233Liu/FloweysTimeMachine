@@ -1,4 +1,4 @@
-presets["sans-battle"] = {
+presets["Sans战斗"] = {
     ini: {
         "General": {
             "Name": "Chara",
