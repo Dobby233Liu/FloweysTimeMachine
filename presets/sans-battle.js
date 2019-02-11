@@ -1,4 +1,4 @@
-presets["打Sans"] = {
+presets["sans-battle"] = {
     ini: {
         "General": {
             "Name": "Chara",
